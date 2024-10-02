@@ -12,5 +12,60 @@ body{
 
 #container {
     display: flex;
-    
+    flex-wrap: wrap;
+}
+
+
+header, footer, nav{
+    width: 100%;
+}
+
+header, nav, main, aside, footer{
+    flex-grow: 1;
+}
+
+header{
+    background-color: #ff7439;
+}
+
+nav{
+    background-color: #39c4ff;
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #41ff6a;
+    width: 70%;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+main h2{
+    width: 100%;
+}
+
+main article{
+    width: 33%;
+    min-width: 250px;
+    flex-grow: 1;
+}
+
+aside{
+    background-color: #343434;
+    width: 30%;
+}
+
+footer{
+    color: #fff;
+    background-color: #000000;
 }
