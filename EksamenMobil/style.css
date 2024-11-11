@@ -1,0 +1,101 @@
+/* Mobile first styling with CSS Grid */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-grid {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Global header styling for mobile */
+.global-header {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Styling for søkefeltet */
+.global-header form {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+#search-input {
+    padding: 8px;
+    border-radius: 0;
+}
+
+#search-button {
+    padding: 8px 12px;
+    border-radius: 0;
+}
+
+/* Styling for navigasjonsmenyen */
+.global-header nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.global-header nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    padding: 6px;
+}
+
+#logo img {
+    height: 125px;
+}
+
+/* Styling for ikonene */
+.global-header .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 20px;
+    gap: 13px;
+}
+
+.global-header .icons h2 {
+    display: none;
+}
+
+.global-header .icons a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#banner {
+    background-color: #c4c4c4;
+    text-align: right;
+    padding: 30px;
+    min-width: 400px;
+    margin-top: 20px;
+}
+
+#banner h2 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.banner-button {
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px;
+}
