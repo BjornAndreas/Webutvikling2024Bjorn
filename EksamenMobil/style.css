@@ -35,18 +35,24 @@ body {
 }
 
 /* Styling for navigasjonsmenyen */
-.global-header nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-}
-
-.global-header nav a {
+.global-header nav ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
     width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.global-header nav ul li {
+    width: 100%;
+}
+
+.global-header nav ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     text-decoration: none;
     color: #000;
     padding: 6px;
