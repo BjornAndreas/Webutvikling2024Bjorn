@@ -97,7 +97,7 @@ body {
     font-weight: bold;
 }
 
-.banner-button {
+#banner-button {
     padding: 12px 24px;
     background-color: #fff;
     color: #000;
