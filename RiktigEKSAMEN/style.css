@@ -4,12 +4,11 @@ body {
 }
 
 #main-grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: auto auto auto auto;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Global header styling for mobile */
@@ -67,15 +66,49 @@ body {
     gap: 13px;
 }
 
+.global-header .icons h2 {
+    display: none;
+}
+
 .global-header .icons a {
     color: #000;
     font-size: 20px;
     text-decoration: none;
 }
 
+#banner {
+    background-color: #c4c4c4;
+    text-align: right;
+    padding: 30px;
+    min-width: 400px;
+    margin-top: 20px;
+}
+
+#banner h2 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.banner-button {
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px;
+}
+
+
 @media only screen and (min-width: 680px) {
     #main-grid {
         max-width: 1200px;
+        display: grid !important;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .global-header {
@@ -83,7 +116,7 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 0px 20px;
+        padding: 0px 15px;
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
@@ -134,4 +167,10 @@ body {
         font-size: 24px;
         margin-left: auto;
     }
+
+    #banner {
+    width: 80%;
+    }
+
+
 }
