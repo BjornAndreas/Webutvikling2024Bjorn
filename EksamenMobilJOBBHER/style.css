@@ -128,8 +128,8 @@ body {
     padding: 4px 23px;
     font-size: 16px;
     margin-bottom: 30px;
-    border-radius: 0;
-    border: 1px solid #8a8a8a;
+    background-color: #fff;
+    border: 1px solid #000000;
 }
 
 .prod-card {
@@ -272,8 +272,10 @@ margin-bottom: 0.5rem;
     font-size: 14px;
 }
 
-.footerikon i {
+.footerikon i, .footerikon a {
     display: block;
     margin-bottom: 2rem;
+    color: #000;
+    text-decoration: none;
 }
 
