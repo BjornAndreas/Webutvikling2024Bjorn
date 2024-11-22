@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="#popprodukt">Produkter</a></li>
                     <li id="logo"><a href="index.html">
-                        <img src="https://picsum.photos/200" alt="Nettsidens logo"/>
+                        <img src="https://picsum.photos/200" alt="Nettsidens logo">
                     </a></li>
                     <li><a href="#popkategori">Kategorier</a></li>
                     <li><a href="#kontakt-oss">Kontakt oss</a></li>
@@ -46,55 +46,63 @@
         <main>
             <section>
                 <h1>Kasse</h1>
-                <h2>1. SHOPPINGBAGEN DIN</h2>
-
                 <article class="prod-card">
+                    <h2>1. SHOPPINGBAGEN DIN</h2>
+                    <h4>Klokke</h4>
                     <img src="https://picsum.photos/id/175/367/267" alt="Produktbilde av en klokke">
                 </article>
                 <article class="prod-info">
                     <h3>KLOKKE</h3>
                     <p>Kr 1999</p>
-                    <p>Farge: beige</p>
+                    <p>Farge: svart/hvit</p>
                 </article>
                 <article class="prod-card">
+                    <h4>Klokke</h4>
                     <img src="https://picsum.photos/id/175/367/267" alt="Produktbilde av en klokke">
                 </article>
                 <article class="prod-info">
                     <h3>KLOKKE</h3>
                     <p>Kr 1999</p>
-                    <p>Farge: beige</p>
+                    <p>Farge: svart/hvit</p>
                 </article>
                 <article class="prod-card">
+                    <h4>Klokke</h4>
                     <img src="https://picsum.photos/id/175/367/267" alt="Produktbilde av en klokke">
                 </article>
                 <article class="prod-info">
                     <h3>KLOKKE</h3>
                     <p>Kr 1999</p>
-                    <p>Farge: beige</p>
+                    <p>Farge: svart/hvit</p>
                 </article>
             </section>
 
             <section class="bruker-info">
                 <h2>2. DINE OPPLYSNINGER</h2>
-                <h4>Leveringsadresse</h3>
+                <h4>Leveringsadresse</h4>
                 
-                <label for="firstname"></label>
-                <input id="firstname" type="text" name="firstname" placeholder="Fornavn*" required>
-                    
-                <label for="lastname"></label>
-                <input id="lastname" type="text" name="lastname" placeholder="Etternavn*" required>
-                    
-                <label for="address"></label>
-                <input id="address" type="text" name="address" placeholder="Gateadresse*" required>
-                    
-                <label for="postalcode"></label>
-                <input id="postalcode" type="text" name="postalcode" placeholder="Postnummer*" required>
-                    
-                <label for="city"></label>
-                <input id="city" type="text" name="city" placeholder="Poststed*" required>
+                <form action="#" method="post">
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname" placeholder="Fornavn*" id="firstname" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+                        
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname" placeholder="Etternavn*" id="lastname" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+                        
+                    <label for="address"></label>
+                    <input type="text" name="address" placeholder="Gateadresse*" id="address" required>
+                        
+                    <label for="postalcode"></label>
+                    <input type="number" name="postalcode" placeholder="Postnummer*" id="postalcode" required>
+                        
+                    <label for="city"></label>
+                    <input type="text" name="city" placeholder="Poststed*" id="city" required>
 
-                <button type="submit">Lagre</button>
+                    <button type="submit">Lagre</button>
+                    <button id="avbryt" type="reset">Avbryt</button>
+                </form>
             </section>
 
 
         </main>
+    </div>
+</body>
+</html>

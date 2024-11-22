@@ -143,6 +143,10 @@ body {
     font-size: 14px;
 }
 
+.prod-card h4 {
+    display: none;
+}
+
 .prod-card p {
     font-size: 12px;
 }
@@ -257,7 +261,12 @@ hr {
 
 .bruker-info h4 {
     margin: 0px;
-    font-size: 12px;
+    font-size: 13px;
+}
+
+.bruker-info form {
+    display: flex;
+    flex-direction: column;
 }
 
 .bruker-info label {
@@ -270,21 +279,27 @@ hr {
     width: 100%;
     padding: 12px;
     border: 1px solid #727272;
-    width: 88%;
+    width: 90%;
 }
 
 .bruker-info button {
-    padding: 12px 24px;
+    padding: 12px 2px;
     background-color: #2b2b2b;
     color: #fff;
     font-weight: bold;
     margin-top: 20px;
     border: 2px solid #555555;
-    border-radius: 0px;
     width: 20%;
-    text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
+}
+
+#avbryt {
+    background-color: #ffffff;
+    border: none;
+    text-decoration: underline;
+    color: #0044ff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: left;
 }
 
 
