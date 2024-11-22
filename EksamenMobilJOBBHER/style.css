@@ -81,7 +81,7 @@ body {
     font-size: 20px;
 }
 
-/* Main */
+/* Main Index */
 
 #banner {
     background-color: #c4c4c4;
@@ -232,6 +232,94 @@ body {
     margin: 0;
     margin-bottom: 10px;
 }
+
+hr {
+    margin: 30px 0;
+    color: #9e9e9e;
+}
+
+/* Main Checkout */
+.prod-info {
+    padding: 5px;
+}
+
+.prod-info h3 {
+    font-size: 14px;
+    margin: 3px 0;
+    padding: 0;
+}
+
+.prod-info p {
+    font-size: 12px;
+    margin: 3px 0;
+    padding: 0;
+}
+
+.bruker-info h4 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.bruker-info label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.bruker-info input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #727272;
+    width: 88%;
+}
+
+.bruker-info button {
+    padding: 12px 24px;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid #555555;
+    border-radius: 0px;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Global Footer */
 
