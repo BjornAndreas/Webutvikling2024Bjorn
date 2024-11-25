@@ -94,7 +94,7 @@
                     <input type="number" name="postalcode" placeholder="Postnummer*" id="postalcode" required>
                         
                     <label for="city"></label>
-                    <input type="text" name="city" placeholder="Poststed*" id="city" required>
+                    <input type="text" name="city" placeholder="Poststed*" id="city" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
 
                     <button type="submit">Lagre</button>
                     <button id="avbryt" type="reset">Avbryt</button>
@@ -152,7 +152,7 @@
                         <input type="checkbox" name="checkbox" required>Ja, jeg godtar vilkårene
                     </label>
                     <label>
-                        <input type="checkbox" name="checkbox">Ja takk! Send nyhetsbrev til meg.
+                        <input type="checkbox" name="checkbox">Ja takk! Send nyhetsbrev til meg
                     </label>
                 </form>
             </section>
