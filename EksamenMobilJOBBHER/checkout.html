@@ -100,9 +100,110 @@
                     <button id="avbryt" type="reset">Avbryt</button>
                 </form>
             </section>
+            <section class="levering">  
+                <h2>3. LEVERING</h2>
+                <h3>LEVERINGSVALG</h3>
+                <form>
+                    <fieldset>
+                        <legend>LEVERINGSVALG</legend>
 
+                        <label>
+                            <input type="radio" name="delivery" value="express-hjem" required>
+                            Express Hjemlevering
+                        </label>
 
+                        <label>
+                            <input type="radio" name="delivery" value="express-pakke" required>
+                            Ekspress Pakke til utleveringssted
+                        </label>
+
+                        <label>
+                            <input type="radio" name="delivery" value="standard-hjem" required>
+                            Standard Hjemlevering
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="betaling">
+                <h2>4. BETALING</h2>
+                <h3>BETAL MED KORT</h3>
+                <form action="#" method="post">
+                    <label for="kortnummer">Kortnummer</label>
+                    <input type="number" id="kortnummer" name="kortnummer" placeholder="342342****4435" required>
+
+                    <label for="utdato">Utløpsdato</label>
+                    <input type="date" id="utdato" name="utdato" max="2025-12-31" required>
+                
+                    <label for="cvc">CVC/CVV</label>
+                    <input type="number" id="cvc" name="cvc" placeholder="CVC/CVV" required>
+
+                    <p class="info">Å betale inkl. mva.</p>
+                    <p class="info">1 199 kr</p>
+
+                    <button type="submit">Fullfør kjøp</button>
+
+                    <p>Du bekrefter herved at opplysningene og dokumentene du har
+                        oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                        retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                        uriktige eller ufullstendige opplysninger</p>
+                    
+                    <label>
+                        <input type="checkbox" name="checkbox" required>Ja, jeg godtar vilkårene
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox">Ja takk! Send nyhetsbrev til meg.
+                    </label>
+                </form>
+            </section>
         </main>
+        <hr>
+        <footer class="global-footer">
+            <section>
+                <h1>Logo</h1>
+                <p id="informasjon">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+            </section>
+
+            <section>
+                <h2 id="kontakt-oss">KONTAKT</h2>
+                <ul>
+                    <li>
+                        <p><i class="fa-solid fa-location-dot"></i><strong>Adresse:</strong>B R A Veien 4, 1757 Halden</p>
+                    </li>
+                    <li>
+                        <p><i class="fa-solid fa-phone"></i><strong>Telefon:</strong>69 60 80 00</p>
+                    </li>
+                    <li>
+                        <p><i class="fa-solid fa-envelope"></i><strong>E-post:</strong>halden@hiof.no</p>
+                    </li>
+                    <li>
+                        <p><i class="fa-solid fa-clock"></i><strong>Åpningtider:</strong> Stenger 15:00</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>SNARVEIER</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Produkter</a></li>
+                        <li><a href="#popkategori">Kategorier</a></li>
+                        <li><a href="#kontakt-oss">Kontakt oss</a></li>
+                        <li><a href="sjekklistetest.pdf">Tilgjengelighetserklæring</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="footerikon">
+                <h2>SOSIALE MEDIER</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="index.html"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="index.html"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="index.html"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </section>
+        </footer>
     </div>
 </body>
 </html>
