@@ -26,7 +26,13 @@ body {
 
 #search-input {
     padding: 8px;
-    border: 2px solid black;
+    border: 2px solid #000;
+}
+
+#search-input:focus {
+    border-radius: 0;
+    border-color: #000;
+    outline: none;
 }
 
 #search-button {
