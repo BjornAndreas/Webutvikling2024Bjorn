@@ -289,8 +289,9 @@ hr {
 }
 
 .bruker-info input {
-    padding: 12px;
+    padding: 12px 0;
     border: 1px solid #727272;
+    width: 100%;
 }
 
 .bruker-info button {
@@ -336,10 +337,6 @@ hr {
     gap: 5px;
 }
 
-.betaling form {
-    margin-bottom: 20px;
-}
-
 .betaling h3 {
     margin: 0;
     padding: 0;
@@ -352,9 +349,9 @@ hr {
 }
 
 .betaling input[type="number"], input[type="date"] {
-    padding: 12px;
+    padding: 12px 0;
     border: 1px solid #727272;
-    width: 90%;
+    width: 100%;
 }
 
 .betaling button {
@@ -510,7 +507,7 @@ margin-bottom: 0.5rem;
     font-size: 14px;
 }
 
-s.footerikon i, .footerikon a {
+.footerikon i, .footerikon a {
     display: block;
     margin-bottom: 2rem;
     color: #000;
