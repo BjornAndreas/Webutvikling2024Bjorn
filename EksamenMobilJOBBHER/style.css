@@ -119,21 +119,34 @@ body {
     font-size: 18px;
 }
 
-.popknapp ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 20px;
+#popprodukt p {
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
-.popknapp button {
-    padding: 4px 23px;
-    font-size: 16px;
-    margin-bottom: 30px;
+.popknapp {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} 
+
+.popknapp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #fff;
-    border: 1px solid #000000;
+    text-decoration: none;
+    border: 1px solid #000;
     text-align: left;
+    color: #000;
+    margin-bottom: 30px;
 }
 
 .prod-card {
@@ -234,7 +247,7 @@ body {
 }
 
 .anmeldkort img {
-    width: 85px;
+    width: 150px;
     height: 85px;
     object-fit: cover;
 }
