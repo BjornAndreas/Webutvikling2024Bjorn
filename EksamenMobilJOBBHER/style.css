@@ -510,10 +510,9 @@ margin-bottom: 0.5rem;
     font-size: 14px;
 }
 
-.footerikon i, .footerikon a {
+s.footerikon i, .footerikon a {
     display: block;
     margin-bottom: 2rem;
     color: #000;
     text-decoration: none;
 }
-
