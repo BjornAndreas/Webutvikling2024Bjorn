@@ -26,12 +26,12 @@ body {
 
 #search-input {
     padding: 8px;
-    border-radius: 0;
+    border: 2px solid black;
 }
 
 #search-button {
     padding: 8px 12px;
-    border-radius: 0;
+    border: 2px solid black;
 }
 
 /* Styling for navigasjonsmenyen */
@@ -81,7 +81,7 @@ body {
     font-size: 20px;
 }
 
-/* Main Index */
+/* Main*/
 
 #banner {
     background-color: #c4c4c4;
@@ -90,6 +90,7 @@ body {
     margin-top: 20px;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 45px;
 }
 
 #banner h2 {
@@ -132,6 +133,7 @@ body {
     margin-bottom: 30px;
     background-color: #fff;
     border: 1px solid #000000;
+    text-align: left;
 }
 
 .prod-card {
@@ -156,6 +158,17 @@ body {
     display: block;
     margin-bottom: 5px;
     width: 100%;
+}
+
+.prod-card3 h4 {
+    display: none;
+}
+
+.prod-card3 img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 3px;
 }
 
 #popkategori {
@@ -278,7 +291,6 @@ hr {
 .bruker-info input {
     padding: 12px;
     border: 1px solid #727272;
-    width: 90%;
 }
 
 .bruker-info button {
@@ -351,7 +363,7 @@ hr {
     padding: 10px;
 }
 
-#cvc {
+#cvc, .productin {
     margin-bottom: 25px;
 }
 
@@ -365,6 +377,64 @@ hr {
     line-height: 0.8;
 }
 
+.breadcrumb {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.breadcrumb ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #000;
+}
+
+.breadcrumb li+li:before {
+    content: ">";
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.merke {
+    color: #5f5f5f;
+}
+
+.productin p {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.ligprod {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.ligprod h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.ligprod img {
+    width: 100%;
+    height: auto;
+}
+
+.ligprodinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ligprodinfo p {
+    font-size: 14px;
+}
 
 
 
@@ -397,8 +467,7 @@ hr {
 
 
 
-
-/* Global Footer */
+/* Global Footer*/
 
 .global-footer section {
     margin-bottom: 2rem;
