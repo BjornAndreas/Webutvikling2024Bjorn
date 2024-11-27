@@ -109,7 +109,7 @@ body {
     font-size: 13px;
 }
 
-#popprodukt h2 {
+#popprodukt h2, .kategorikort h3 {
     font-size: 18px;
 }
 
@@ -148,22 +148,17 @@ body {
     padding: 5px;
 }
 
-.prod-card h3 {
+.prod-card h3, .ligprodinfo p {
     font-size: 14px;
-}
-
-.prod-card p {
-    font-size: 12px;
 }
 
 .prod-card img {
     height: auto;
     display: block;
-    margin-bottom: 5px;
     width: 100%;
 }
 
-.prod-card3 h4, .prod-card h4, .global-header .icons h2 {
+.prod-card3 h4, .prod-card h4, .global-header .icons h2, .prod-card4 h4 {
     display: none;
 }
 
@@ -198,10 +193,6 @@ body {
     margin: 10px 0;
     max-width: 100%;
     box-sizing: border-box;
-}
-
-.kategorikort h3 {
-    font-size: 18px;
 }
 
 .anmeldelser {
@@ -249,7 +240,6 @@ hr {
     color: #9e9e9e;
 }
 
-/* Main*/
 .prod-info {
     padding: 5px;
 }
@@ -419,10 +409,6 @@ hr {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-}
-
-.ligprodinfo p {
-    font-size: 14px;
 }
 
 /* Global Footer*/
