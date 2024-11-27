@@ -17,15 +17,14 @@ body {
     align-items: flex-start;
 }
 
-/* Styling for søkefeltet */
 .global-header form {
     display: flex;
     margin-bottom: 10px;
     gap: 5px;
 }
 
-#search-input {
-    padding: 8px;
+#search-input, #search-button {
+    padding: 8px 12px;
     border: 2px solid #000;
 }
 
@@ -35,12 +34,6 @@ body {
     outline: none;
 }
 
-#search-button {
-    padding: 8px 12px;
-    border: 2px solid black;
-}
-
-/* Styling for navigasjonsmenyen */
 .global-header nav ul {
     display: flex;
     flex-direction: column;
@@ -66,11 +59,6 @@ body {
 
 #logo img {
     height: 125px;
-}
-
-/* Styling for ikonene */
-.global-header .icons h2 {
-    display: none;
 }
 
 .global-header .icons ul {
@@ -164,10 +152,6 @@ body {
     font-size: 14px;
 }
 
-.prod-card h4 {
-    display: none;
-}
-
 .prod-card p {
     font-size: 12px;
 }
@@ -179,7 +163,7 @@ body {
     width: 100%;
 }
 
-.prod-card3 h4 {
+.prod-card3 h4, .prod-card h4, .global-header .icons h2 {
     display: none;
 }
 
@@ -216,17 +200,6 @@ body {
     box-sizing: border-box;
 }
 
-.kategorikort2 {
-    border: 1px solid #000;
-    height: 425px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
 .kategorikort h3 {
     font-size: 18px;
 }
@@ -253,9 +226,10 @@ body {
 }
 
 .anmeldkort img {
-    width: 150px;
+    width: 85px;
     height: 85px;
     object-fit: cover;
+    max-width: 150px;
 }
 
 .anmeldkort h3 {
@@ -326,7 +300,7 @@ hr {
 }
 
 #avbryt {
-    background-color: #ffffff;
+    background-color: #fff;
     border: none;
     text-decoration: underline;
     color: #0044ff;
@@ -345,10 +319,6 @@ hr {
     margin-bottom: 25px;
 }
 
-.levering legend {
-    display: none;
-}
-
 .levering label {
     display: flex;
     margin-bottom: 25px;
@@ -356,11 +326,11 @@ hr {
     font-weight: bold;
     align-items: center;
     gap: 5px;
+    padding: 2px;
 }
 
 .betaling h3 {
     margin: 0;
-    padding: 0;
     font-size: 14px;
 }
 
@@ -455,37 +425,6 @@ hr {
     font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Global Footer*/
 
 .global-footer section {
@@ -534,4 +473,5 @@ margin-bottom: 0.5rem;
     margin-bottom: 2rem;
     color: #000;
     text-decoration: none;
+    font-size: 16px;
 }
